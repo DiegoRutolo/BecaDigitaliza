@@ -1,0 +1,6 @@
+nombre = input("Nombre: ")
+apellidos = input("Apellidos: ")
+telefono = input("Telefono: ")
+ciudad = input("Ciudad: ")
+edad = input("Edad: ")
+print("\nSoy "+nombre+" "+apellidos+", tengo años "+edad+" y vivo en "+ciudad+".\nPuedes usar el telefono "+telefono+" para contactar comingo.")
