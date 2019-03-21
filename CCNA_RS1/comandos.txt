@@ -1,0 +1,18 @@
+show
+config t
+line console 0
+password
+login
+enable password
+enable secret
+service passw[...]
+banner motd ""
+cooy run start
+
+config t
+interface vlan \N
+ip address \IP \MASK
+no shutdown
+
+show ip interface brief
+
